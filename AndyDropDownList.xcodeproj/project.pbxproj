@@ -15,6 +15,11 @@
 		745F1F231E5FD7B000F44655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F211E5FD7B000F44655 /* LaunchScreen.storyboard */; };
 		745F1F2E1E5FD7B000F44655 /* AndyDropDownListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F2D1E5FD7B000F44655 /* AndyDropDownListTests.m */; };
 		745F1F391E5FD7B000F44655 /* AndyDropDownListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F381E5FD7B000F44655 /* AndyDropDownListUITests.m */; };
+		745F1F4A1E5FD7E400F44655 /* zhaoyun-71.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F461E5FD7E400F44655 /* zhaoyun-71.png */; };
+		745F1F4B1E5FD7E400F44655 /* zhaoyun-71@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F471E5FD7E400F44655 /* zhaoyun-71@2x.png */; };
+		745F1F4C1E5FD7E400F44655 /* zhaoyun-71@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F481E5FD7E400F44655 /* zhaoyun-71@3x.png */; };
+		745F1F4D1E5FD7E400F44655 /* ico_make.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F1F491E5FD7E400F44655 /* ico_make.png */; };
+		745F1F511E5FD82800F44655 /* AndyDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1F501E5FD82800F44655 /* AndyDropDownList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		745F1F341E5FD7B000F44655 /* AndyDropDownListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndyDropDownListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		745F1F381E5FD7B000F44655 /* AndyDropDownListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndyDropDownListUITests.m; sourceTree = "<group>"; };
 		745F1F3A1E5FD7B000F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745F1F461E5FD7E400F44655 /* zhaoyun-71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhaoyun-71.png"; sourceTree = "<group>"; };
+		745F1F471E5FD7E400F44655 /* zhaoyun-71@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhaoyun-71@2x.png"; sourceTree = "<group>"; };
+		745F1F481E5FD7E400F44655 /* zhaoyun-71@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhaoyun-71@3x.png"; sourceTree = "<group>"; };
+		745F1F491E5FD7E400F44655 /* ico_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_make.png; sourceTree = "<group>"; };
+		745F1F4F1E5FD82800F44655 /* AndyDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyDropDownList.h; sourceTree = "<group>"; };
+		745F1F501E5FD82800F44655 /* AndyDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyDropDownList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,13 @@
 		745F1F121E5FD7AF00F44655 /* AndyDropDownList */ = {
 			isa = PBXGroup;
 			children = (
+				745F1F4E1E5FD7ED00F44655 /* Image */,
 				745F1F161E5FD7AF00F44655 /* AppDelegate.h */,
 				745F1F171E5FD7AF00F44655 /* AppDelegate.m */,
 				745F1F191E5FD7AF00F44655 /* ViewController.h */,
 				745F1F1A1E5FD7AF00F44655 /* ViewController.m */,
+				745F1F4F1E5FD82800F44655 /* AndyDropDownList.h */,
+				745F1F501E5FD82800F44655 /* AndyDropDownList.m */,
 				745F1F1C1E5FD7AF00F44655 /* Main.storyboard */,
 				745F1F1F1E5FD7B000F44655 /* Assets.xcassets */,
 				745F1F211E5FD7B000F44655 /* LaunchScreen.storyboard */,
@@ -138,6 +152,17 @@
 				745F1F3A1E5FD7B000F44655 /* Info.plist */,
 			);
 			path = AndyDropDownListUITests;
+			sourceTree = "<group>";
+		};
+		745F1F4E1E5FD7ED00F44655 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				745F1F461E5FD7E400F44655 /* zhaoyun-71.png */,
+				745F1F471E5FD7E400F44655 /* zhaoyun-71@2x.png */,
+				745F1F481E5FD7E400F44655 /* zhaoyun-71@3x.png */,
+				745F1F491E5FD7E400F44655 /* ico_make.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745F1F4A1E5FD7E400F44655 /* zhaoyun-71.png in Resources */,
+				745F1F4B1E5FD7E400F44655 /* zhaoyun-71@2x.png in Resources */,
 				745F1F231E5FD7B000F44655 /* LaunchScreen.storyboard in Resources */,
+				745F1F4D1E5FD7E400F44655 /* ico_make.png in Resources */,
 				745F1F201E5FD7B000F44655 /* Assets.xcassets in Resources */,
+				745F1F4C1E5FD7E400F44655 /* zhaoyun-71@3x.png in Resources */,
 				745F1F1E1E5FD7B000F44655 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +301,7 @@
 			files = (
 				745F1F1B1E5FD7AF00F44655 /* ViewController.m in Sources */,
 				745F1F181E5FD7AF00F44655 /* AppDelegate.m in Sources */,
+				745F1F511E5FD82800F44655 /* AndyDropDownList.m in Sources */,
 				745F1F151E5FD7AF00F44655 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
